@@ -10,8 +10,12 @@ This is an R Markdown document for the project work Practical Machine Learning.
 1. Problem : Predict the effectiveness of Weight Lifting Exercise among 20-28 year old Male as part of Human Activity Recognition
 
 2. Input Data: 
-Loaded the Pml-Training data and splitted the data 60% for training and 40% for Testing using CreateDataPartion methid
+Loaded the Pml-Training data and splitted the data 60% for training and 40% for Testing using CreateDataPartion method as normal slcing and tarining data
 
-3. Fit the model using 
 
-4. 
+3. Fit the model using Train function
+
+4. Tried with  Testing and could see Output Error rate is higher 
+
+5. SO tried Random forest with K=10 fold 
+
