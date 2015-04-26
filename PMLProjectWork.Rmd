@@ -19,3 +19,11 @@ Loaded the Pml-Training data and splitted the data 60% for training and 40% for 
 
 5. SO tried Random forest with K=10 fold 
 
+
+```{r}
+library(caret);
+library(kernlab);
+
+rfModel <- train( classe ~., data='pml.training', method="rf",verbose=FALSE)
+
+```
