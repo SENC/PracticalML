@@ -7,19 +7,11 @@ output: html_document
 
 This is an R Markdown document for the project work Practical Machine Learning.
 
+1. Problem : Predict the effectiveness of Weight Lifting Exercise among 20-28 year old Male as part of Human Activity Recognition
 
+2. Input Data: 
+Loaded the Pml-Training data and splitted the data 60% for training and 40% for Testing using CreateDataPartion methid
 
+3. Fit the model using 
 
- You can embed an R code chunk like this:
-
-```{r}
-summary(cars)
-```
-
-You can also embed plots, for example:
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+4. 
